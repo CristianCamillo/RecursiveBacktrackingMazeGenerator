@@ -137,8 +137,8 @@ public class Main
 			
 		};
 		
-		currentCell[0] = (short)(mWidth / 2);
-		currentCell[1] = (short)(mHeight / 2);
+		currentCell[0] = (short)(Math.random() * mWidth);
+		currentCell[1] = (short)(Math.random() * mHeight);
 		
 		maze[currentCell[0] + currentCell[1] * mWidth] = -1;
 		
